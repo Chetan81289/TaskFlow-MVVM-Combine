@@ -103,20 +103,7 @@ TaskFlow/
 
 ---
 
-## 🚀 Quick Start
-
- **Clone the repo**
-   ```bash
-git clone https://github.com/yourusername/TaskFlow-MVVM-Combine.git
-Open TaskFlow.xcodeproj in Xcode 16.0 or later.
-
-Press ⌘R to run.
-
-No third‑party dependencies – the app works out of the box.
-   
----
-
-###  🧪 Testing & Code Coverage
+##  🧪 Testing & Code Coverage
 All ViewModel logic is covered by unit tests (see TaskListViewModelTests.swift).
 
 A custom MockTaskRepository simulates Core Data behaviour, allowing fast, deterministic tests.
