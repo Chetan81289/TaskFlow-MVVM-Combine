@@ -2,7 +2,7 @@
 //  TaskFlowApp.swift
 //  TaskFlow
 //
-//  Created by Jyoti Purohit on 01/05/26.
+//  Created by Chetan Purohit on 01/05/26.
 //
 
 import SwiftUI
@@ -14,8 +14,8 @@ struct TaskFlowApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TaskListView()
+            .environment(\.managedObjectContext, persistenceController.viewContext)
         }
     }
 }

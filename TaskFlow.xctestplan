@@ -1,0 +1,47 @@
+{
+  "configurations" : [
+    {
+      "id" : "DE92B160-AA2B-4363-91AB-1B853280F14B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:TaskFlow.xcodeproj",
+          "identifier" : "1DB0CE5B2FA48D610077157D",
+          "name" : "TaskFlow"
+        }
+      ]
+    },
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TaskFlow.xcodeproj",
+      "identifier" : "1DB0CE5B2FA48D610077157D",
+      "name" : "TaskFlow"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TaskFlow.xcodeproj",
+        "identifier" : "1DB0CE6D2FA48D630077157D",
+        "name" : "TaskFlowTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TaskFlow.xcodeproj",
+        "identifier" : "1DB0CE772FA48D630077157D",
+        "name" : "TaskFlowUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
