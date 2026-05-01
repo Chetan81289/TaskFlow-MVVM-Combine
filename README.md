@@ -79,27 +79,28 @@ This project uses **SwiftUI**, **Combine**, and **Core Data** in a rigorously te
 
 ## 📂 Project Structure
 
+```
 TaskFlow/
 ├── App/
-│ ├── TaskFlowApp.swift # @main entry
-│ └── PersistenceController.swift # Core Data stack
+│   ├── TaskFlowApp.swift               # @main entry
+│   └── PersistenceController.swift     # Core Data stack
 ├── Model/
-│ ├── Task.swift # Domain model
-│ ├── TaskEntity+CoreDataClass.swift # Core Data entity (manual)
-│ └── TaskEntity+Mapping.swift # Entity ↔ Domain mapping
+│   ├── Task.swift                      # Domain model
+│   ├── TaskEntity+CoreDataClass.swift  # Core Data entity (manual)
+│   └── TaskEntity+Mapping.swift        # Entity ↔ Domain mapping
 ├── Repository/
-│ ├── TaskRepositoryProtocol.swift # Abstract repository
-│ └── CoreDataTaskRepository.swift # Core Data implementation
+│   ├── TaskRepositoryProtocol.swift    # Abstract repository
+│   └── CoreDataTaskRepository.swift    # Core Data implementation
 ├── ViewModel/
-│ └── TaskListViewModel.swift # Combine pipelines, state, actions
+│   └── TaskListViewModel.swift         # Combine pipelines, state, actions
 ├── View/
-│ ├── TaskListView.swift # Main screen
-│ ├── TaskRowView.swift # Row cell
-│ └── AddEditTaskView.swift # New/Edit sheet
+│   ├── TaskListView.swift              # Main screen
+│   ├── TaskRowView.swift               # Row cell
+│   └── AddEditTaskView.swift           # New/Edit sheet
 └── Tests/
-├── TaskListViewModelTests.swift # ViewModel unit tests
-└── MockTaskRepository.swift # Test double
-
+    ├── TaskListViewModelTests.swift    # ViewModel unit tests
+    └── MockTaskRepository.swift        # Test double
+```
 
 ---
 
