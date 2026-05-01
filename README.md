@@ -114,8 +114,9 @@ Press ⌘R to run.
 
 No third‑party dependencies – the app works out of the box.
    
+---
 
-🧪 Testing & Code Coverage
+###  🧪 Testing & Code Coverage
 All ViewModel logic is covered by unit tests (see TaskListViewModelTests.swift).
 
 A custom MockTaskRepository simulates Core Data behaviour, allowing fast, deterministic tests.
@@ -125,9 +126,13 @@ Report navigator → latest Test → Coverage tab.
 
 Current coverage: ~92% of ViewModel and Repository logic.
 
-📬 Contact
+---
+
+## 📬 Contact
 Chetankumar Purohit
 iOS Developer
 Chetan81289@outlook.com
 
 Open to remote iOS contracts worldwide 🚀
+
+---
